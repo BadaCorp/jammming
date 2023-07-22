@@ -3,7 +3,7 @@ import { useState } from 'react';
 import TrackList from '../TrackList/TrackList';
 
 function App() {
-	const [tracks, setTracks] = useState([
+	const [tracks] = useState([
 		{
 			id: '1',
 			name: 'No Lele',
