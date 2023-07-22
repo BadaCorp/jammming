@@ -1,7 +1,7 @@
 import Track from '../Track/Track';
-import styles from './Tracklist.module.css';
+import styles from './TrackList.module.css';
 
-const Tracklist = ({ tracks }) => {
+const TrackList = ({ tracks }) => {
 	const RenderTracks = tracks.map((track) => (
 		<div className={styles.TrackList} key={track.id}>
 			<Track track={track} />
@@ -11,4 +11,4 @@ const Tracklist = ({ tracks }) => {
 	return <>{RenderTracks}</>;
 };
 
-export default Tracklist;
+export default TrackList;

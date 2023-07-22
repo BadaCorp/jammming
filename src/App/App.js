@@ -1,7 +1,6 @@
-import logo from '../logo.svg';
 import styles from './App.module.css';
 import { useState } from 'react';
-import TrackList from '../Tracklist/Tracklist';
+import TrackList from '../TrackList/TrackList';
 
 function App() {
 	const [tracks, setTracks] = useState([
